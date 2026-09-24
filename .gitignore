@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 中间产物 / 缓存
+.DS_Store
+*.tmp
+
+# 本机转换流水线产物（非论文材料）
+output/
+intermediate/
+
+# 大文件占位（真实年报语料接入后可按需放开）
+# 演示语料（600 份 MD&A 文本）可由 scripts/01_build_corpus.py 重新生成，故不入库
+data/raw/*.txt
+
+# 编辑器
+.vscode/
+.idea/

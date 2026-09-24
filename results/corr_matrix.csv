@@ -1,0 +1,6 @@
+﻿pair,pearson_r,p_value
+聚合效度: ShortTerm × ShortTermSent,0.794,1.28e-131
+区分效度: ShortTerm × size,-0.023,0.572
+区分效度: ShortTerm × lev,0.046,0.257
+区分效度: ShortTerm × age,-0.018,0.668
+预测效度: ShortTerm × rd_intensity,-0.283,1.78e-12
